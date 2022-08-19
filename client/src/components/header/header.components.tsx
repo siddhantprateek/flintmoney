@@ -5,6 +5,9 @@ import { Link } from "react-router-dom";
 // style
 import './header.styles.css'
 
+// asset
+import { DownloadLogo } from "../../assets";
+
 interface Nav {
   optionName: string;
   route: string;
@@ -53,7 +56,13 @@ const Header = () => {
         </ul>
       </div>
       <div className="nav_right">
-        Download
+        <div className="download-btn">
+          <div className="dwn-content">
+            Download Now
+          </div>
+          <img src={DownloadLogo} alt="" />
+        </div>
+
       </div>
     </header>
   );
