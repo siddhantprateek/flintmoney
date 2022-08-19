@@ -1,0 +1,25 @@
+.featured-container {
+    display: flex;
+    width: 70rem;
+    height: 35rem;
+}
+
+.ft-left img {
+    height: 25rem;
+}
+
+
+.ft-right {
+    padding: 4rem;
+}
+
+.ft-right h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 4.1rem;
+}
+
+.ft-right p {
+    font-size: 1.4rem;
+    color: rgb(176, 176, 176);
+}

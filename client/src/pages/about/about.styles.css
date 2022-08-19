@@ -1,0 +1,27 @@
+.about-hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40rem;
+}
+
+
+.founder-video-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.founder-content {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.our-partners-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;  
+}

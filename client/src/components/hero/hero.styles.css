@@ -26,4 +26,9 @@
     box-shadow: rgb(35 35 35 / 25%) 0px 6.94028px 43.3768px;
     border-radius: 14px;
     font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
+
+.start-learning:hover {
+    box-shadow: 0px 0px 28px 13px rgba(255, 255, 255, 0.37);
 }

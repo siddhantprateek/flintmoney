@@ -1,7 +1,7 @@
 import React from 'react';
 
 // components
-import { Hero } from '../../components';
+import { Featured, Hero } from '../../components';
 
 // styles
 import './home.styles.css';
@@ -17,6 +17,10 @@ const Home = () => {
 
       <div className="hero-section">
         <Hero/>
+      </div>
+
+      <div className="ft-section">
+        <Featured/>
       </div>
     </div>
   )
