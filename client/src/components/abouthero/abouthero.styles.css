@@ -1,0 +1,10 @@
+.about-hero-container h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.about-hero-container p {
+    font-size: 1.8rem;
+    color: grey;
+}
+
