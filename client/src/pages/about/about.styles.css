@@ -25,3 +25,15 @@
     align-items: center;
     height: 50rem;  
 }
+
+.founder-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vol {
+    cursor: pointer;
+    padding: 0 1rem;
+    height: 1.4rem;
+}

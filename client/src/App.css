@@ -1,3 +1,26 @@
 .pages {
   margin-top: 6.5rem;
 }
+
+section .spreads {
+  position: absolute;
+  filter: blur(250px);
+  z-index: -2;
+ 
+}
+
+section .spreads:nth-child(1) {
+  background-color: #ef1026;
+  height: 300px;
+  width: 300px;
+  margin-left: 20rem;
+  margin-top: 5rem;
+}
+
+section .spreads:nth-child(2) {
+  background-color: #3B59C5;
+  height: 300px;
+  width: 300px;
+  margin-left: 50rem;
+  margin-top: 5rem;
+}

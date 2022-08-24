@@ -11,6 +11,10 @@ import './home.styles.css';
 const Home = () => {
   return (
     <div className='home_page pages'>
+      <section>
+        <div className="spreads"></div>
+        <div className="spreads"></div>
+      </section>
       <div className="download-now-ad">
         <p>Start earning high yields on 11 more coins. <b>Download ↠</b></p>
       </div>
