@@ -4,10 +4,15 @@
     height: 35rem;
 }
 
-.ft-left img {
-    height: 25rem;
+.ft-left {
+    height: 185rem;
 }
 
+.ft-left img {
+    height: 25rem;
+    position: sticky;
+    top: 10rem;
+}
 
 .ft-right {
     padding: 4rem;
@@ -22,4 +27,12 @@
 .ft-right p {
     font-size: 1.4rem;
     color: rgb(176, 176, 176);
+}
+
+.item-container {
+    margin-bottom: 20rem;
+}
+
+.empty-space {
+    height: 50rem;
 }

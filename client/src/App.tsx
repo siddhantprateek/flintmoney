@@ -7,7 +7,7 @@ import './App.css';
 import { About, Home } from './pages';
 
 // components
-import { Header } from './components';
+import { Footer, Header } from './components';
 
 function App() {
   return (
@@ -17,7 +17,6 @@ function App() {
         <Route index element={<Home/>} />
         <Route path='/about' element={<About/>}/>
       </Routes>
-
     </div>
   );
 }
